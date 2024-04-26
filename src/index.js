@@ -120,7 +120,7 @@ const GridExample = () => {
   const defaultColDef = useMemo(() => ({
     filter: true,
     editable: true,
-  }));
+  }),[]);
 
   // Container: Defines the grid's theme & dimensions.
   return (
