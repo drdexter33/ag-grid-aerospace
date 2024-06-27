@@ -109,7 +109,7 @@ const GridExample = () => {
     { field: "rocket" },
   ]);
 
-  // Fetch data & update rowData state
+  // Fetch json data & update rowData state
   useEffect(() => {
     fetch("https://www.ag-grid.com/example-assets/space-mission-data.json")
       .then((result) => result.json())
